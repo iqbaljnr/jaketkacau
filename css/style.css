@@ -1,0 +1,125 @@
+nav {
+    background-color: transparent;
+}
+
+.navbar-fixed {
+    height: 0!important;
+  }
+
+.slider {
+    height: fit-content;
+}
+
+.brand-logo,
+.portfolio{
+    font-family:'Road Rage';
+    text-shadow : 2px 2px 1px rgb(255, 196, 0);
+}
+
+.jumbotron {
+    background-image: url(../img/portfolio/JJ.png);
+    background-size: cover;
+    margin-bottom: -25px;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow : 4px 2px 6px rgba(0,0,0,1);
+}
+
+
+.hr {
+    width: 300px;
+    border-bottom: 5px solid black;
+}
+    
+.section {
+    background-color:#bdbdbd;
+}
+
+h3 {
+    font-family: 'Road Rage';
+    margin: 0 0 2px;
+}
+
+.footer {
+    position: fixed;
+    padding: 0px 0;
+}
+
+.flow-text{
+    font-family:'Road Rage';
+    text-shadow : 2px 2px 1px rgb(75, 75, 75);
+}
+
+@media (min-width: 320px){
+    nav {
+        background-color: none;
+    }
+
+    nav ul a {
+        padding: 0 8px;
+    }
+    
+    nav .brand-logo {
+        font-family:'Road Rage';
+        font-size:35px;
+        left: 105px;
+    }
+
+    .sidenav {
+        width: 170px;
+    }
+    
+    }
+
+@media (min-width :425px){
+    nav ul a {
+        padding: 0 10px;
+    }
+
+    nav .brand-logo {
+        font-size: 35px;
+        left: 110px;
+    }
+
+    .sidenav {
+        width: 250px;
+    }
+}
+
+@media (min-width: 992px){
+    nav ul a {
+        padding : 0 15px
+    }
+
+    nav .brand-logo {
+        font-size: 50px;
+        left: 20px;
+    }
+
+    .slider img {
+    height: 700px;
+}
+
+.section {
+    background-color:#bdbdbd;
+}
+
+.parallax-container {
+    height:40% ;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.8 !important;
+}
+
+.clients img {
+    max-width: 300px;
+    position: center;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+}
