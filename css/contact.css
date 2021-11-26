@@ -2,51 +2,54 @@ nav {
     background-color: transparent;
 }
 
-.slider {
-    height: fit-content;
+.navbar-fixed {
+    height: 0!important;
 }
-
-.brand-logo {
-    font-family:'Road Rage';
-}
-
 
 .brand-logo{
+    font-family:'Road Rage';
     text-shadow : 2px 2px 1px rgb(255, 196, 0);
 }
 
-.slider h3,
-.slider h5,
-.clients h3 {
-    text-shadow : 4px 2px 6px rgba(0,0,0,1);
-}
-
-
-.hr {
-    width: 300px;
-    border-bottom: 5px solid black;
-}
-    
-.section {
-    background-color:#bdbdbd;
+.flow-text {
+    font-family: 'Road Rage';
 }
 
 h3 {
     font-family: 'Road Rage';
-    margin: 0 0 2px;
+    padding-top: 60px;
+    margin-top: 0px;
+    text-shadow : 2px 2px 1px rgb(255, 196, 0,);
 }
 
-.parallax-container {
-    height:40% ;
+.waves-effect.waves-teal {
+    background-color: rgb(255, 196, 0);
 }
 
-.parallax img {
-    filter: grayscale(1);
-    opacity: 0.8 !important;
+footer {
+    position: fixed-bottom;
 }
 
-section,footer {
-    padding: 20px 0;
+.cod img {
+    max-width: 70px;
+    max-height: 100px;
+    position: relative;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.mandiri img {
+    max-width: 70px;
+    max-height: 100px;
+    position: relative;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+
+.bni img {
+    max-width: 70px;
+    max-height: 100px;
+    position: relative;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
 

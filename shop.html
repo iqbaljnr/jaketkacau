@@ -7,7 +7,7 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
       <!-- my css -->
-      <link rel="stylesheet" href="css/about.css">
+      <link rel="stylesheet" href="css/shop.css">
       <!-- fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,14 +22,14 @@
     <body>
         <!-- navbar -->
         <div class="navbar-fixed">
-          <nav class="navbar-fixed" id="navbar">
+          <nav class="N/A transparent navbar-fixed" id="navbar">
             <div class="nav-wrapper">
-              <a href="index.html" class="black-text brand-logo">JAKET.KACAU</a>
-              <a href="#" data-target="mobile-nav" class="sidenav-trigger show-on-large"><i class="black-text material-icons">menu</i></a>
+              <a href="index.html" class="white-text brand-logo">JAKET.KACAU</a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger show-on-large"><i class="white-text material-icons">menu</i></a>
               <ul class="icon right">
-                <li><a href="#" class=""><i class="black-text material-icons">search</i></a></li>
-                <li><a href="#" class=""><i class="black-text material-icons">person</i></a></li>
-                <li><a href="#" class=""><i class="black-text material-icons">local_mall</i></a></li>
+                <li><a href="#" class=""><i class="white-text material-icons">search</i></a></li>
+                <li><a href="#" class=""><i class="white-text material-icons">person</i></a></li>
+                <li><a href="#" class=""><i class="white-text material-icons">local_mall</i></a></li>
               </ul>
             </div>
           </nav>
@@ -45,22 +45,27 @@
           <li><a href="contact.html">Contact Us</a></li>    
         </ul>
         <!-- akhir siders -->
-    
 
-        <!-- about -->
-        <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <h3>About</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                 
+        <!-- shop -->
+        <section id="shop" class="portfolio">
+            <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h2 class="white-text center">our stuff</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="img/portfolio/0.1.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/portfolio/0.2.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="img/portfolio/0.3.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="img/portfolio/0.4.jpeg"></a>
+                <a class="carousel-item" href="#five!"><img src="img/portfolio/0.5.jpeg"></a>
+                <a class="carousel-item" href="#six!"><img src="img/portfolio/0.6.jpeg"></a>
+                <a class="carousel-item" href="#seven!"><img src="img/portfolio/0.7.jpeg"></a>
+                <a class="carousel-item" href="#eight!"><img src="img/portfolio/0.8.jpeg"></a>
+              </div>
+              </div>
             </div>
-        </div>
-      </div>
-        <!-- akhir about -->
+        </section>
+            <!-- akhir shop -->
+
 
         <!-- footer -->
         <footer class="page-footer amber">
@@ -100,6 +105,12 @@
       <script>
         const sideNav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(sideNav);
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        const carousel = document.querySelectorAll('.carousel');
+        M.Carousel.init(carousel);
 
 
       </script>

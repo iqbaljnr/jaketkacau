@@ -91,12 +91,12 @@ h3 {
 
 @media (min-width: 992px){
     nav ul a {
-        padding : 0 15px
+        padding : 0 15px;
     }
 
     nav .brand-logo {
         font-size: 50px;
-        left: 20px;
+        left: 50px;
     }
 
     .slider img {

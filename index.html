@@ -24,36 +24,36 @@
         <nav class="navbar-fixed" id="navbar">
           <div class="nav-wrapper">
             <a href="index.html" class="black-text brand-logo">JAKET.KACAU</a>
-            <ul class="icon right">
+            <ul class="right">
               <li><a href="#" class=""><i class="material-icons">search</i></a></li>
               <li><a href="#" data-target="account"><i class="material-icons">person</i></a></li>
               <li><a href="#" class=""><i class="material-icons">local_mall</i></a></li>
             </ul>
           </div>
-          <a href="#" data-target="slide-nav" class="sidenav-trigger"><i class="black-text material-icons">menu</i></a>
+          <a href="#" data-target="slide-nav" class="sidenav-trigger show-on-large"><i class="white-text material-icons">menu</i></a>
         </nav>
       </div>
       <!-- akhir navbar -->
 
-      <!-- slides -->
+      <!-- side menu -->
       <ul class="sidenav" id="slide-nav">
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="">Relation</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Profiles</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="">category</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
-      <!-- akhir slide -->
+      <!-- akhir side -->
 
       <!-- account -->
       <ul id="account" class="sidenav">
         <li><div class="user-view">
           <div class="background">
-            <img src="images/office.jpg">
+            <img src="">
           </div>
-          <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-          <a href="#name"><span class="white-text name">John Doe</span></a>
-          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          <a href=""><img class="circle" src=""></a>
+          <a href=""><span class="white-text name">John Doe</span></a>
+          <a href=""><span class="white-text email">jdandturk@gmail.com</span></a>
         </div></li>
         <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
         <li><a href="#!">Second Link</a></li>
@@ -101,10 +101,10 @@
             </div>
 
       <!-- category -->
-      <section id="category" class="portfolio">
+      <section id="stuff" class="portfolio">
         <div class="jumbotron jumbotron-fluid">
         <div class="container">
-        <h3 class="center-align">category</h3>
+        <h3 class="center-align">our stuff</h3>
             <div class="row">
               <div class="col m3 s6">
                 <img src="img/portfolio/0.1.jpeg" alt="" class="responsive-img materialboxed">
@@ -116,23 +116,23 @@
                 <img src="img/portfolio/0.3.jpeg" alt="" class="responsive-img materialboxed">
               </div>
               <div class="col m3 s6">
-                <img src="img/portfolio/0.3.jpeg" alt="" class="responsive-img materialboxed">
+                <img src="img/portfolio/0.4.jpeg" alt="" class="responsive-img materialboxed">
               </div>
               </div>
 
               <div class="row">
               <div class="col m3 s6">
-                <img src="img/portfolio/0.4.jpeg" alt="" class="responsive-img materialboxed">
+                <img src="img/portfolio/0.5.jpeg" alt="" class="responsive-img materialboxed">
               </div>
               <div class="col m3 s6">
-                <img src="img/portfolio/0.5.jpeg" alt="" class="responsive-img materialboxed">
+                <img src="img/portfolio/0.6.jpeg" alt="" class="responsive-img materialboxed">
               </div>
               <div class="row">
               <div class="col m3 s6">
-                <img src="img/portfolio/0.6.jpeg" alt="" class="responsive-img materialboxed">
+                <img src="img/portfolio/0.7.jpeg" alt="" class="responsive-img materialboxed">
               </div>
               <div class="col m3 s6">
-                <img src="img/portfolio/0.6.jpeg" alt="" class="responsive-img materialboxed">
+                <img src="img/portfolio/0.8.jpeg" alt="" class="responsive-img materialboxed">
               </div>
             </div>
           </div>
@@ -166,9 +166,6 @@
           transition: 500,
           interval : 5000
         });
-
-        const parallax = document.querySelectorAll('.parallax');
-        M.Parallax.init(parallax);
 
         const materialbox = document.querySelectorAll('.materialboxed');
         M.Materialbox.init(materialbox);
