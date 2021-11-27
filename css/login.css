@@ -1,0 +1,138 @@
+nav {
+    background-color: transparent;
+}
+
+.navbar-fixed {
+    height: 0!important;
+}
+
+.brand-logo{
+    font-family:'Road Rage';
+    text-shadow : 2px 2px 1px rgb(255, 196, 0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Road Rage';
+    background: #34495e;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type ="text"],.box input [type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type ="text"]:focus,.box input[type = "password"]{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input [type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input [type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+@media (min-width: 992px){
+    .brand-logo {
+        margin-left: 10%;
+    }
+    
+    .slider h3,
+    .slider h5,
+    .clients h3 {
+        text-shadow : 2px 2px 5px rgba(0,0,0,1);
+    }
+    
+    }
+    
+    @media (min-width: 320px){
+        nav ul a {
+            padding: 0 8px;
+        }
+        
+        nav .brand-logo {
+            font-size:35px;
+            left: 105px;
+        }
+    
+        .sidenav {
+            width: 200px;
+        }
+        
+        }
+    
+    
+    @media (min-width :425px){
+        nav ul a {
+            padding: 0 10px;
+        }
+    
+        nav .brand-logo {
+            font-size: 35px;
+            left: 110px;
+        }
+    
+        .sidenav {
+            width: 250px;
+        }
+    }
+    
+    @media (min-width :768px){
+        .sidenav {
+            width: 350px;
+        }
+    }
+    
+    @media (min-width : 1024px){
+        nav ul a {
+            padding : 0 15px
+        }
+    
+        nav .brand-logo {
+            font-size: 50px;
+            left:-45px;
+        }
+    
+    }
